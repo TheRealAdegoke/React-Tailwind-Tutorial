@@ -1,10 +1,11 @@
 import { useState } from 'react'
+import ThreeDRotatingGallery from './ThreeDRotatingGallery';
 
 function App() {
 
   return (
     <>
-      <h1 className="font-bold underline">Hello world!</h1>
+      <ThreeDRotatingGallery/>
     </>
   );
 }
